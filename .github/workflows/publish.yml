@@ -23,7 +23,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Generate with _just
-        uses: JustDeveloper1/_just@c5b8362b2041cf54e0e776ec8a69755044f84f8d
+        uses: JustDeveloper1/_just@3327459e068e15f89c66f0f0992055b31b4d3c45
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
