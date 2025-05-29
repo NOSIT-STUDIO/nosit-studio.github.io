@@ -24,6 +24,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Generate with _just
         uses: JustDeveloper1/_just@a6717f9368ef500e7fb8a2dbffade6fc647ae739
+        with:
+          path: .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
