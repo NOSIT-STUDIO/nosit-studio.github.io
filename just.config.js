@@ -1,6 +1,6 @@
 module.exports = {
     type: "generator",
-    docs_con0fig: {
+    docs_config: {
         metatitle: "a",
         domain: "a"
     }
